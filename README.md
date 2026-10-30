@@ -22,8 +22,9 @@ npm run preview
 
 ## Implemented prototype scope
 
-### Phase 1 — Foundation
-- React + TypeScript + Vite with a responsive operations-dashboard shell.
+### Phase 1 — Foundation & Landing Experience
+- Public landing page (`/` and `/welcome`) for AICTE security deposit / FDR management presenting the tagline "Prove, don't trust.", evidence ladder overview, 6 core capabilities, 6-step lifecycle stepper, interactive trust-model selector, 7 release gates mock, role views, prototype reality check, and FAQ accordion.
+- Operations dashboard shell with Command Center moved to `/dashboard`.
 - Navigation for all implemented modules, role-selector demo control, DEMO MODE indicator, light/dark theme toggle and shared visual components.
 - Responsive desktop, tablet and mobile layouts; keyboard focus and reduced-motion styling.
 
@@ -33,7 +34,7 @@ npm run preview
 - Simulated date used by lifecycle calculations.
 
 ### Phase 3 — Dashboard, institutions and registry
-- Command Center portfolio summary, institution overview, deposit registry, filters and CSV export.
+- Command Center (`/dashboard`) portfolio summary, institution overview, deposit registry, filters and CSV export.
 - Verification queue, activity stream and local audit export.
 
 ### Phase 4 — Submission wizard
